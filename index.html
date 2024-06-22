@@ -1,9 +1,272 @@
-<html>
-  <head>
-    <mate charest="utf-8" />
-    <title>Hello world!</title>
-  </head>
-  <body>
-    <h1>Coming Soon</h1>
-  </body>
-</html>
+<!DOCTYPE html>
+<head>
+    <title>Running Zhao</title>
+    <meta name="author" content="Running Zhao">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Runnign Zhao">
+	<meta property="og:description" content="PhD student, HKU">
+    <meta property="og:image" content="https://ZhaoRunning.github.io/files/me.jpeg">
+	<meta property="og:url" content="https://ZhaoRunning.github.io/">
+	<meta name="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" href="files/hku_logo.jpg">
+    <link rel="icon" type="image/png" href="files/hku_logo.jpg">
+    <link rel="manifest" href="files/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="external/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="external/skeleton/skeleton.css">
+    <script src="external/skeleton_tabs/skeleton-tabs.js"></script>
+    <link rel="stylesheet" href="external/skeleton_tabs/skeleton-tabs.css">
+</head>
+
+<div class="header noselect">
+    <div class="content row">
+        <div class="header-profile-picture"></div>
+        <div class="header-text">
+            <div class="header-name">
+                <h1>Running Zhao</h1>
+            </div>
+            <div class="header-subtitle">
+                PhD student, The University of Hong Kong (HKU)
+            </div>
+            <div class="header-links">
+                <a class="btn" href="mailto:rnzhao@connect.hku.hk">Email</a> /
+                <a class="btn" href="https://scholar.google.com/citations?user=QDnm0fgAAAAJ&hl=en">Google Scholar</a> /
+                <a class="btn" href="https://github.com/ZhaoRunning">GitHub</a> /
+                <a class="btn" href="https://twitter.com/Running_Zhao">Twitter</a> /
+                <a class="btn" href="www.linkedin.com/in/running-zhao-24388b204">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content" style="padding-bottom: 64px;">
+    <div>
+        <p>
+            I am a third-year PhD student in the Department of Electrical and Electronic Engineering at The University of Hong Kong, advised by Prof. <a href="https://xiaolonw.github.io/">Edith C.H. Ngai</a>.
+            Previously, I was fortunate to work with Prof. <a href="https://hangzhaomit.github.io/">Hang Zhao</a> at IIIS, Tsinghua University and Shanghai Qi Zhi Institute.
+            My research interests include human-computer interaction (HCI), wireless sensing, and multimodal learning, 
+            with a particular emphasis on using different modalities or sensors to investigate novel sensing applications.
+            <br/><br/>
+        </p>
+    </div>
+
+
+    <!-- ========== PUBLICATIONS ========== -->
+    <div>
+        <div class="docs-section" id="publications">
+            <h2 class="noselect">Publications</h2>
+
+            <ul class="tab-nav">
+                <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+                <li><div class="button" data-ref="#papers-all">All</div></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="papers-selected">
+                    <!-- selected publication -->
+                    <!-- <div class="publication row clearfix">
+                        <div class="row-media" style="background-image: url(files/xtra.gif);"></div>
+                        <div class="row-text">
+                            <a class="publication-title bold">AOC-IDS: Autonomous Online Framework with Contrastive Learning for Intrusion Detection</a><br/>
+                            Xinchen Zhang, <span class="bold">Running Zhao</span>, Zhihan Jiang, Zhicong Sun, Yulong Ding, Edith C.H. Ngai, and Shuang-Hua Yang<br/>
+                            <span class="italic">IEEE International Conference on Computer Communications (IEEE INFOCOM 2024</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2402.01807">arXiv</a> / <a class="btn" href="https://github.com/xinchen930/AOC-IDS">code</a>
+                        </div>
+                    </div> -->
+
+                    <div class="publication row clearfix">
+                        <div class="row-media" style="background-image: url(files/radio2text.png);"></div>
+                        <div class="row-text">
+                            <span class="bold">Radio2Text: Streaming Speech Recognition Using mmWave Radio Signals</span><br/>
+                            <span class="bold">Running Zhao</span>, Jiangtao Yu, Hang Zhao, and Edith C.H. Ngai<br/>
+                            <span class="italic">Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (ACM IMWUT/UbiComp 2023</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2308.08125">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-media" style="background-image: url(files/radio2speech.png);"></div>
+                        <div class="row-text">
+                            <span class="bold">Radio2Speech: High Quality Speech Recovery from Radio Frequency Signals</span><br/>
+                            <span class="bold">Running Zhao</span>, Jiangtao Yu, Tingle Li, Hang Zhao, and Edith C.H. Ngai<br/>
+                            <span class="italic">In Proc. INTERSPEECH 2022</span><br/>
+                            <a class="btn" href="https://zhaorunning.github.io/Radio2Speech/">Website</a> / <a class="btn btn-red" href="https://arxiv.org/abs/2206.11066">arXiv</a> 
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-media" style="background-image: url(files/continuous_activity.png);"></div>
+                        <div class="row-text">
+                            <span class="bold">An End-to-End Network for Continuous Human Motion Recognition via Radar Radios</span><br/>
+                            <span class="bold">Running Zhao</span>, Xiaolin Ma, Xinhua Liu, and Jian Liu<br/>
+                            <span class="italic">IEEE Sensors Journal, vol. 21, no. 5, pp. 6487-6496, Mar. 2021</span><br/>
+                            <a class="btn" href="https://ieeexplore.ieee.org/document/9272316">Paper</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-media" style="background-image: url(files/continuous_interference.png);"></div>
+                        <div class="row-text">
+                            <span class="bold">Continuous Human Motion Recognition Using Micro-Doppler Signatures in the Scenario with Micro Motion Interference</span><br/>
+                            <span class="bold">Running Zhao</span>, Xiaolin Ma, Xinhua Liu, and Fangmin Li<br/>
+                            <span class="italic">IEEE Sensors Journal, vol. 21, no. 4, pp. 5022-5034, Feb. 2021</span><br/>
+                            <a class="btn" href="https://ieeexplore.ieee.org/document/9237996">Paper</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane" id="papers-all">
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">Internal Cross-layer Gradients for Extending Homogeneity to Heterogeneity in Federated Learning</span><br/>
+                            Yun-Hin Chan, Rui Zhou, <span class="bold">Running Zhao</span>, Zhihan Jiang, and Edith C.-H. Ngai<br/>
+                            <span class="italic">International Conference on Learning Representations (ICLR 2024</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2308.11464">arXiv</a> / <a class="btn" href="https://github.com/ChanYunHin/InCo-Aggregation">code</a> 
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">AOC-IDS: Autonomous Online Framework with Contrastive Learning for Intrusion Detection</span><br/>
+                            Xinchen Zhang, <span class="bold">Running Zhao</span>, Zhihan Jiang, Zhicong Sun, Yulong Ding, Edith C.H. Ngai, and Shuang-Hua Yang<br/>
+                            <span class="italic">IEEE International Conference on Computer Communications (IEEE INFOCOM 2024</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2402.01807">arXiv</a> / <a class="btn" href="https://github.com/xinchen930/AOC-IDS">code</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">Radio2Text: Streaming Speech Recognition Using mmWave Radio Signals</span><br/>
+                            <span class="bold">Running Zhao</span>, Jiangtao Yu, Hang Zhao, and Edith C.H. Ngai<br/>
+                            <span class="italic">Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (ACM IMWUT/UbiComp 2023</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2308.08125">arXiv</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">HealthPrism: A Visual Analytics System for Exploring Children's Physical and Mental Health Profiles with Multimodal Data</span><br/>
+                            Zhihan Jiang, Handi Chen, Rui Zhou, Jing Deng, Xinchen Zhang, <span class="bold">Running Zhao</span>, Cong Xie, Yifang Wang, and Edith CH Ngai<br/>
+                            <span class="italic">IEEE Transactions on Visualization and Computer Graphics (IEEE VIS 2023</span>)<br/>
+                            <a class="btn btn-red" href="https://arxiv.org/abs/2307.12242">arXiv</a> / <a class="btn" href="https://zhihanjiang.com/video/demo.mp4">demo</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">Human Activity Recognition From Motion and Acoustic Sensors Using Contrastive Learning</span><br/>
+                            Rui Zhou, <span class="bold">Running Zhao</span>, and Edith CH Ngai<br/>
+                            <span class="italic">IEEE International Conference on Acoustics, Speech, and Signal Processing Workshops (ICASSPW 2023</span>)<br/>
+                            <a class="btn" href="https://ieeexplore.ieee.org/document/10192969">Paper</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">A Data-Driven Context-Aware Health Inference System for Children during School Closures</span><br/>
+                            Zhihan Jiang, Lin Lin, Xinchen Zhang, Jianduo Luan, <span class="bold">Running Zhao</span>, Longbiao Chen, James Lam, Ka-Man Yip, Hung-Kwan So, Wilfred HS Wong, Patrick Ip, and Edith CH Ngai<br/>
+                            <span class="italic">Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (ACM IMWUT/UbiComp 2023</span>)<br/>
+                            <a class="btn" href="https://dl.acm.org/doi/10.1145/3580800">Paper</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">Radio2Speech: High Quality Speech Recovery from Radio Frequency Signals</span><br/>
+                            <span class="bold">Running Zhao</span>, Jiangtao Yu, Tingle Li, Hang Zhao, and Edith C.H. Ngai<br/>
+                            <span class="italic">In Proc. INTERSPEECH 2022</span><br/>
+                            <a class="btn" href="https://zhaorunning.github.io/Radio2Speech/">Website</a> / <a class="btn btn-red" href="https://arxiv.org/abs/2206.11066">arXiv</a> 
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">An End-to-End Network for Continuous Human Motion Recognition via Radar Radios</span><br/>
+                            <span class="bold">Running Zhao</span>, Xiaolin Ma, Xinhua Liu, and Jian Liu<br/>
+                            <span class="italic">IEEE Sensors Journal, vol. 21, no. 5, pp. 6487-6496, Mar. 2021</span><br/>
+                            <a class="btn" href="https://ieeexplore.ieee.org/document/9272316">Paper</a>
+                        </div>
+                    </div>
+
+                    <div class="publication row clearfix">
+                        <div class="row-text-allpub">
+                            <span class="bold">Continuous Human Motion Recognition Using Micro-Doppler Signatures in the Scenario with Micro Motion Interference</span><br/>
+                            <span class="bold">Running Zhao</span>, Xiaolin Ma, Xinhua Liu, and Fangmin Li<br/>
+                            <span class="italic">IEEE Sensors Journal, vol. 21, no. 4, pp. 5022-5034, Feb. 2021</span><br/>
+                            <a class="btn" href="https://ieeexplore.ieee.org/document/9237996">Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div>
+        <h2>Research Experience</h2>
+
+        <li class="exp">
+            <div class="flex-container">
+                <div>IIIS, Tsinghua University & Shanghai Qi Zhi Institute</div>
+                <div>Beijing & Shanghai</div>
+            </div>
+            <div class="flex-container">
+                <div>Research Intern, Working with<a href="https://hangzhaomit.github.io/"> Prof. Hang Zhao</a></div>
+                <div>Apr. 2022 - Sep. 2022</div>
+            </div>
+        </li>
+        <li class="exp">
+            <div class="flex-container">
+                <div>Shanghai Qi Zhi Institute</div>
+                <div>Shanghai</div>
+            </div>
+            <div class="flex-container">
+                <div>Research Intern, Working with<a href="https://hangzhaomit.github.io/"> Prof. Hang Zhao</a></div>
+                <div>Jun. 2021 - Aug. 2021</div>
+            </div>
+        </li>
+
+    </div>
+
+    <!-- https://www.christiansteinmetz.com/ -->
+    <!-- <div>
+                <h2>Research Experience</h2>
+
+                <div style="margin: 0px 15px 15px 0px; float:left">
+                    <img src="files/bair.png" style="width: 55px;"> 
+                </div>
+                <div>
+                    <p class="employer">Tape It</p>  
+                    <p class="position">Research Scientist, Advisor: <a href="https://thomas-walther.com/">Thomas Walther</a> </p> 
+                    <p class="date">January 2022 - Present</p>
+                </div>
+                <div style="margin-bottom: 15px;"> </div>
+                <div style="margin: 0px 15px 15px 0px; float:left">
+                    <img src="files/bair.png" style="width: 55px;"> 
+                </div>
+                <div>
+                    <p class="employer">Tape It</p>  
+                    <p class="position">Research Scientist, Advisor: <a href="https://thomas-walther.com/">Thomas Walther</a> </p> 
+                    <p class="date">January 2022 - Present</p>
+                </div>
+    </div> -->
+
+
+    <div class="noselect">  
+        <h2>Service</h2>
+        Reviewer of ACM UIST 2024, ACM IMWUT/UbiComp 2023-2024, IEEE Transactions on Mobile Computing, IEEE Transactions on Industrial Informatics, IEEE Sensors Journal
+    </div>
+
+    <div class="noselect">
+        <h2>Contact</h2>
+        I'm open to discussion or collaboration. Feel free to drop me an email (rnzhao [AT] connect。hku。hk) if you're interested in my research areas.
+    </div>
+</div>
+
+<div class="footer noselect">
+    <div class="footer-content">
+        &copy; Thanks to <a style="color: white; text-decoration: underline;" href="https://github.com/nicklashansen/nicklashansen.github.io">Nicklas Hansen</a> for the website template.
+    </div>
+</div>
